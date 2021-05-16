@@ -186,3 +186,65 @@ body {
 .footer-text {
     padding-left: 250px;
 }
+
+
+/* Adaptiveness */
+
+@media (max-width: 1800px) {
+    .contact {
+        font-size: 1.1rem;
+    }
+    .contact img {
+        width: 58px;
+        left: -78px;
+        top: 6px;
+    }
+    .table tbody td {
+        font-size: 1.2rem;
+    }
+    .table thead th {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 1660px) {
+    .sub-header {
+        margin-top: 5px;
+        font-size: 1.8rem;
+    }
+    .contact {
+        font-size: 1rem;
+    }
+    .contact img {
+        width: 54px;
+        left: -69px;
+        top: 3px;
+    }
+    .table tbody td {
+        font-size: 1.1rem;
+    }
+    .table thead th {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 1366px) {
+    .sub-header {
+        margin-top: 10px;
+        font-size: 1.6rem;
+    }
+    .contact {
+        font-size: 1rem;
+    }
+    .contact img {
+        width: 50px;
+        left: -65px;
+        top: 4px;
+    }
+    .table tbody td {
+        font-size: .9rem;
+    }
+    .table thead th {
+        font-size: 1.1rem;
+    }
+}
