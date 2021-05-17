@@ -1,8 +1,8 @@
 function todaysDate() {
 
     const todayDate = new Date();
-    const hours = todayDate.getHours();
-    const minutes = todayDate.getMinutes();
+    let hours = todayDate.getHours();
+    let minutes = todayDate.getMinutes();
     const date = todayDate.getDate();
     const year = todayDate.getFullYear();
     let weekDay = '';
@@ -66,11 +66,20 @@ function todaysDate() {
             }
     }
 
-    console.log(todayDate, hours, minutes, months, date, year, weekDay)
+
+
 
     const hoursId = document.querySelector('#hours');
     const dateId = document.querySelector('#date');
     const weekDayId = document.querySelector('#weekDay');
+
+    if (hours < 10) {
+        hours = `0${hours}`;
+    }
+
+    if (minutes < 10) {
+        minutes = `0${minutes}`;
+    }
 
     hoursId.textContent = `${hours}:${minutes}`;
     dateId.textContent = `${date} ${months} ${year}.г`

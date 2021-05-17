@@ -254,3 +254,44 @@ body {
         font-size: 1.1rem;
     }
 }
+
+@media (max-width: 1240px) {
+    .logo img {
+        margin-top: -50px;
+        width: 260px;
+    }
+    .time {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 1140px) {
+    .logo img {
+        margin-top: -50px;
+        width: 260px;
+    }
+    .table {
+        margin-top: 40px;
+    }
+    .sub-header {
+        margin-top: 10px;
+        font-size: 1.5rem;
+    }
+    .contact {
+        font-size: .9rem;
+    }
+    .contact img {
+        width: 45px;
+        left: -56px;
+        top: 3px;
+    }
+    .table tbody td {
+        font-size: .8rem;
+    }
+    .table thead th {
+        font-size: 1rem;
+    }
+    .time {
+        font-size: 1.3rem;
+    }
+}
