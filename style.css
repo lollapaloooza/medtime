@@ -388,23 +388,19 @@ body {
 
 @media (max-width: 500px) {
     .logo img {
-        position: fixed;
         margin-top: 0px;
         width: 220px;
     }
     .contact {
-        position: fixed;
         font-size: .9rem;
         padding-left: 45px;
     }
     .contact img {
-        position: fixed;
         width: 40px;
         left: -2px;
         top: 4px;
     }
     .sub-header {
-        position: fixed;
         margin-top: 40px;
         font-size: 1.2rem;
     }
