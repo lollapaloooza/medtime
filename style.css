@@ -229,7 +229,7 @@ body {
 
 @media (max-width: 1366px) {
     .logo img {
-        margin-top: -79px;
+        margin-top: -60px;
         width: 270px;
     }
     .table {
@@ -253,15 +253,21 @@ body {
     .table thead th {
         font-size: 1.1rem;
     }
+    .main-header .container {
+        min-height: 12vh;
+    }
 }
 
-@media (max-width: 1240px) {
+@media (max-width: 1220px) {
     .logo img {
         margin-top: -50px;
         width: 260px;
     }
     .time {
         font-size: 1.3rem;
+    }
+    .main-header .container {
+        min-height: 12vh;
     }
 }
 
@@ -293,5 +299,8 @@ body {
     }
     .time {
         font-size: 1.3rem;
+    }
+    .main-header .container {
+        min-height: 12vh;
     }
 }
