@@ -289,7 +289,7 @@ body {
         top: 3px;
     }
     .table tbody td {
-        font-size: .8rem;
+        font-size: .9rem;
     }
     .table thead th {
         font-size: 1rem;
@@ -299,5 +299,90 @@ body {
     }
     .main-header .container {
         min-height: 12vh;
+    }
+}
+
+@media (max-width: 1024px) {
+    .logo img {
+        margin-top: -50px;
+        width: 250px;
+    }
+    .table {
+        margin-top: 30px;
+    }
+    .table tbody td {
+        font-size: 1rem;
+    }
+    .table thead th {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 940px) {
+    .logo img {
+        margin-top: -50px;
+        width: 240px;
+    }
+    .sub-header {
+        margin-top: 10px;
+        font-size: 1.4rem;
+    }
+    .contact {
+        font-size: .8rem;
+    }
+}
+
+@media (max-width: 870px) {
+    .logo img {
+        margin-top: -50px;
+        width: 220px;
+    }
+    .table {
+        margin-top: 40px;
+    }
+    .sub-header {
+        margin-top: 10px;
+        font-size: 1.3rem;
+    }
+    .contact {
+        font-size: .8rem;
+        padding-left: 45px;
+    }
+    .contact img {
+        width: 40px;
+        left: -2px;
+        top: 4px;
+    }
+    .table tbody td {
+        font-size: .9rem;
+    }
+    .table thead th {
+        font-size: 1rem;
+    }
+    .time {
+        display: none;
+    }
+    .main-header .container {
+        min-height: 12vh;
+    }
+}
+
+@media (max-width: 800px) {
+    .logo img {
+        margin-top: 0px;
+        width: 220px;
+    }
+    .contact {
+        font-size: 1rem;
+        padding-left: 45px;
+    }
+    .contact img {
+        width: 40px;
+        left: -2px;
+        top: 4px;
+    }
+    .sub-header {
+        margin-top: 30px;
+        font-size: 1.3rem;
     }
 }
