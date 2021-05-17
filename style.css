@@ -229,7 +229,7 @@ body {
 
 @media (max-width: 1366px) {
     .logo img {
-        margin-top: -60px;
+        margin-top: -79px;
         width: 270px;
     }
     .table {
@@ -252,9 +252,6 @@ body {
     }
     .table thead th {
         font-size: 1.1rem;
-    }
-    .main-header .container {
-        min-height: 12vh;
     }
 }
 
