@@ -320,6 +320,21 @@ body {
     }
 }
 
+@media (max-width: 970px) {
+    .firstCol {
+        position: relative;
+        width: 100px;
+    }
+    .outer-table {
+        position: relative;
+    }
+    .inner-table {
+        overflow-x: scroll;
+        overflow-y: visible;
+        width: 100%;
+    }
+}
+
 @media (max-width: 940px) {
     .logo img {
         margin-top: -50px;
